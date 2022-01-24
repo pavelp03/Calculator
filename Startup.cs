@@ -15,7 +15,7 @@ namespace GitExercise
             Console.Write("b = ");
             double b = double.Parse(Console.ReadLine() ?? throw new InvalidOperationException());
 
-            Console.WriteLine("Choose one from the listed options:");
+            Console.WriteLine("Choose onee from the listed options:");
             foreach (string option in OptionsManager.OptionsList)
             {
                 Console.WriteLine($"\t{option}");
